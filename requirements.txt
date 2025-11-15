@@ -1,0 +1,38 @@
+# HealthGuard AI - Dependencies
+# Python 3.10+
+
+# Google AI & ADK
+google-generativeai>=0.3.0
+google-cloud-aiplatform>=1.38.0
+
+# Agent Development Kit (when available)
+# adk-python>=0.1.0
+
+# Core Dependencies
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+aiohttp>=3.9.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Database & Storage
+sqlalchemy>=2.0.0
+
+# Logging & Monitoring
+loguru>=0.7.2
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Code Quality
+black>=23.0.0
+flake8>=6.1.0
+mypy>=1.7.0
+
+# Utilities
+python-dateutil>=2.8.2
+requests>=2.31.0
